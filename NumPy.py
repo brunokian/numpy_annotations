@@ -108,13 +108,14 @@ print(a[a>=3].ndim)
 
 # usando o zeros()
 a = numpy.zeros(3)
-a = numpy.zeros((3))
 # é criado uma array de 1 dimensão com 3 colunas de valor 0
 
 a = numpy.zeros((3,2))
+a = numpy.zeros([3,2])
 # é criado uma array de 2 dimensões: um array com 3 arrays com 2 valores cada
+# note que é necessario coloca-los em uma coleção
 
-a = numpy.zeros((3,2,4))
+a = numpy.zeros([3,2,4])
 # é criado uma array de 3 dimensões: um array com 3 arrays com 2 arrays com 4 valores cada
 
 
